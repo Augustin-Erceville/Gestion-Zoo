@@ -7,16 +7,16 @@ public class Oiseau extends Animal {
 
     @Override
     public void faireDuBruit() {
-        System.out.println(nom + " chante mélodieusement.");
+        System.out.println(nom + " gazouille.");
     }
 
     @Override
     public void seDeplacer() {
-        System.out.println(nom + " vole gracieusement dans les airs.");
+        System.out.println(nom + " se déplace dans l'airs.");
     }
 
     @Override
     public void manger() {
-        System.out.println(nom + " picore des graines.");
+        System.out.println(nom + " mange des graines.");
     }
 }

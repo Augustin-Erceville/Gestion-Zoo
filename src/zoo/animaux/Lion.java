@@ -7,16 +7,16 @@ public class Lion extends Animal {
 
     @Override
     public void faireDuBruit() {
-        System.out.println(nom + " rugit puissamment !");
+        System.out.println(nom + " hrle fort !");
     }
 
     @Override
     public void seDeplacer() {
-        System.out.println(nom + " marche fièrement dans son enclos.");
+        System.out.println(nom + " marche par terre.");
     }
 
     @Override
     public void manger() {
-        System.out.println(nom + " dévore une grosse pièce de viande.");
+        System.out.println(nom + " dévore de viande.");
     }
 }

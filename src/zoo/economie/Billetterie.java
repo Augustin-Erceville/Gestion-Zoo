@@ -28,11 +28,11 @@ public class Billetterie {
     }
 
     public void afficherRecettes() {
-        System.out.println("Total des recettes : " + recettes + "€.");
+        System.out.println("Recettes : " + recettes + "€.");
     }
 
     public void afficherListeVisiteurs() {
-        System.out.println("Liste des visiteurs :");
+        System.out.println("Visiteurs :");
         for (Visiteur visiteur : visiteurs) {
             System.out.println(visiteur);
         }
